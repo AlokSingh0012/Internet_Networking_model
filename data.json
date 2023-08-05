@@ -1,0 +1,63 @@
+[
+    {
+      "IPName": "Server1",
+      "IPAddress": "192.168.1.100",
+      "ConnectedIPs": ["192.168.1.101", "192.168.1.102"],
+      "status": "online"
+    },
+    {
+      "IPName": "Computer1",
+      "IPAddress": "192.168.1.101",
+      "ConnectedIPs": ["192.168.1.100"],
+      "status": "offline"
+    },
+    {
+      "IPName": "Printer1",
+      "IPAddress": "192.168.1.102",
+      "ConnectedIPs": ["192.168.1.100"],
+      "status": "online"
+    },
+    {
+      "IPName": "Laptop1",
+      "IPAddress": "192.168.1.103",
+      "ConnectedIPs": ["192.168.1.104"],
+      "status": "online"
+    },
+    {
+      "IPName": "Mobile1",
+      "IPAddress": "192.168.1.104",
+      "ConnectedIPs": ["192.168.1.103"],
+      "status": "offline"
+    },
+    {
+      "IPName": "Camera1",
+      "IPAddress": "192.168.1.105",
+      "ConnectedIPs": [],
+      "status": "online"
+    },
+    {
+      "IPName": "SmartTV1",
+      "IPAddress": "192.168.1.106",
+      "ConnectedIPs": [],
+      "status": "online"
+    },
+    {
+      "IPName": "Router1",
+      "IPAddress": "192.168.1.1",
+      "ConnectedIPs": ["192.168.1.100", "192.168.1.102"],
+      "status": "offline"
+    },
+    {
+      "IPName": "Switch1",
+      "IPAddress": "192.168.1.2",
+      "ConnectedIPs": ["192.168.1.104", "192.168.1.102"],
+      "status": "online"
+    },
+    {
+      "IPName": "AccessPoint1",
+      "IPAddress": "192.168.1.3",
+      "ConnectedIPs": ["192.168.1.100", "192.168.1.102"],
+      "status": "online"
+    }
+  ]
+  
